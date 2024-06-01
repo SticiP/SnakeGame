@@ -1,0 +1,86 @@
+.root {
+    -fx-background-color: #2b2b2b; /* Dark background for entire application */
+    -fx-padding: 20px; /* Padding around the entire layout */
+    -fx-alignment: center; /* Center align all elements */
+}
+
+.canvas-pane {
+    -fx-background-color: #3c3c3c; /* Dark gray background for game area */
+    -fx-padding: 10px;
+    -fx-border-radius: 10px; /* Rounded corners */
+    -fx-background-radius: 10px; /* Rounded corners */
+    -fx-alignment: center;
+}
+
+.score-label {
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+    -fx-background-color: #4CAF50; /* Green background for score */
+    -fx-padding: 10px;
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-alignment: center;
+    -fx-margin: 20px; /* Margin for spacing */
+}
+
+.game-over-menu {
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+    -fx-padding: 20px;
+    -fx-alignment: center;
+    -fx-border-radius: 10px; /* Rounded corners */
+    -fx-background-radius: 10px; /* Rounded corners */
+}
+
+.game-over-label {
+    -fx-font-size: 36px;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+}
+
+.menu-button {
+    -fx-background-color: #4CAF50; /* Green background */
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 18px; /* Font size */
+    -fx-padding: 10px 20px; /* Padding */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-cursor: hand; /* Hand cursor on hover */
+    -fx-margin: 10px 0; /* Margin between buttons */
+}
+
+.menu-button:hover {
+    -fx-background-color: #45a049; /* Darker green on hover */
+}
+
+.main-menu {
+    -fx-alignment: center;
+    -fx-padding: 40px;
+}
+
+.level-select-menu {
+    -fx-alignment: center;
+    -fx-padding: 40px;
+}
+
+.level-name-label {
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+}
+
+.level-nav-button {
+    -fx-background-color: #4CAF50; /* Green background */
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 18px; /* Font size */
+    -fx-padding: 10px 20px; /* Padding */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-cursor: hand; /* Hand cursor on hover */
+}
+
+.nav-buttons {
+    -fx-alignment: center;
+}
+
+.level-indicators {
+    -fx-alignment: center;
+}
